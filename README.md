@@ -18,3 +18,7 @@
 「第89回センバツ出場校」と書かれたリボンがページ右上（学校によっては左上）に表示されます。
 
 ![screenshot.png](https://raw.githubusercontent.com/ko31/senbatsu_ribbon_2017/master/screenshot.png)
+
+## 参考
+
+* [Pure CSS responsive "Fork me on GitHub" ribbon](http://codepo8.github.io/css-fork-on-github-ribbon/#) 
