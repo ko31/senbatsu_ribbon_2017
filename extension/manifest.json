@@ -1,0 +1,46 @@
+{
+    "name": "Senbatsu Ribbon 2017",
+        "version": "1.0",
+        "manifest_version": 2,
+        "description": "2017年センバツ出場校の Web サイトにリボンをかける Chrome 拡張です",
+        "content_scripts": [{
+            "matches": [
+                "http://www.kibou.ac.jp/daiichi/*",
+                "http://www.sendaiikuei.ed.jp/i_html/i_top.html",
+                "http://www.morifu.jp/*",
+                "http://www.sakushin.ac.jp/highschool/*",
+                "http://www.boyo.tokai.ed.jp/*",
+                "http://www.maebashiikuei-h.ed.jp/*",
+                "http://www.tuhw-h.ed.jp/*",
+                "http://www.wasedajg.ed.jp/*",
+                "http://www.nichidai3.ed.jp/s_index/*",
+                "http://www.edu.pref.shizuoka.jp/shizuoka-h*",
+                "http://www.shigakukan-h.ed.jp/*",
+                "http://www.fukui-ut-fukui-h.ed.jp/*",
+                "http://www.takaoka-ch.tym.ed.jp/*",
+                "http://riseisha.ed.jp/h_school/*",
+                "http://www.kobe-michael.ac.jp/*",
+                "http://www.osakatoin.ed.jp/*",
+                "http://www.shigagakuen.ed.jp/*",
+                "http://www.hotoku.ac.jp/*",
+                "http://www.chiben.ac.jp/gojo/*",
+                "http://web1.kcn.jp/ichisho/*",
+                "http://www.ubekojo-h.ed.jp/*",
+                "http://www.kure-city.jp/~kurek/*",
+                "http://www.soshigakuen.ed.jp/*",
+                "http://www.meitoku-gijuku.ed.jp/*",
+                "http://www.ntu.ac.jp/teikyo5/*",
+                "http://www.ohori.ed.jp/*",
+                "http://www.hs.ftokai-u.ac.jp/*",
+                "https://syugakukan.ed.jp/*",
+                "http://sakura1.higo.ed.jp/sh/kumakoths/",
+                "http://www2.iwate-ed.jp/koz-h/*",
+                "http://school.gifu-net.ed.jp/tajimi-hs/*",
+                "http://www.kochinet.ed.jp/kennakamura-jh/*"
+            ],
+            "js": ["ribbon.js"],
+            "run_at": "document_end"
+        }]
+}
+
+
